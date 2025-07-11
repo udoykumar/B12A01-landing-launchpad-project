@@ -1,11 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: "Raleway", sans-serif;;
+
+body {
+    font-family: "Raleway", sans-serif;
+    ;
 }
+
 /* share style  */
 button {
     padding: 15px 35px;
@@ -26,14 +29,15 @@ span {
 .text-color {
     color: rgba(37, 36, 50, 0.5);
 }
-.margin{
+
+.margin {
     margin: 10px 0;
 }
 
 /* header style  */
 .header {
     background-image: url(../Assets/Hero-bg.png);
-    
+
     padding-bottom: 100px;
 }
 
@@ -80,96 +84,157 @@ span {
     font-size: 24px;
 
 }
-.action-container img{
+
+.action-container img {
     width: 403px;
     border-radius: 40px;
 
 }
 
 /* productive section  */
-.productive-user-container{ 
+.productive-user-container {
     padding: 0px 150px;
     margin: 50px 0;
 }
 
-.productive-user{
+.productive-user {
     background: rgba(78, 71, 255, 0.1);
     border-radius: 20px;
 }
-.productive-details{
+
+.productive-details {
     padding: 40px 70px;
 }
-.productive-title{
+
+.productive-title {
     margin-bottom: 30px;
     text-align: center;
     font-size: 38px;
     font-weight: bold;
     color: #252432;
 }
-.productive-sub-title{
+
+.productive-sub-title {
     display: flex;
     justify-content: space-between;
 
 }
-.placed{
+
+.placed {
     text-align: center;
 }
-.placed .number{
+
+.placed .number {
     font-size: 80px;
     color: #4E47FF;
     font-weight: bold;
     padding: 0;
 }
 
-.placed .number .num-name{
-    color: rgba(0,0,0,0.5);
+.placed .number .num-name {
+    color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
 }
 
 /* user feedback */
-.user-feedback{
+.user-feedback {
     text-align: center;
     padding: 0 150px;
     margin: 70px;
 }
-.feedback-title{
+
+.feedback-title {
     font-size: 42px;
     font-weight: bold;
     margin-bottom: 50px;
 }
-.feedback-card-container{
+
+.feedback-card-container {
     display: flex;
     justify-content: space-between;
 }
-.feedback-card{
+
+.feedback-card {
     background-color: 192A51;
-    box-shadow: 3px 4px 4px rgba(0,0,0,0.3);
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3);
     text-align: left;
     padding: 24px;
 }
-.card-rating{
+
+.card-rating {
     margin: 10px 0;
 }
 
-.card-title{
-   font-weight: bold;
-   margin: 10px 0;
-}
-.user-comment{
+.card-title {
+    font-weight: bold;
     margin: 10px 0;
 }
-.user-info{
+
+.user-comment {
+    margin: 10px 0;
+}
+
+.user-info {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.user-info img{
+
+.user-info img {
     border-radius: 50%;
 }
-.user-info .user-name{
+
+.user-info .user-name {
     font-size: 18px;
     font-weight: bold;
-    color: rgba(0,0,0,0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 /* Touch section  */
+.touch-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    margin: 70px 0;
+    background-color: #192A51;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.touch-title {
+    font-size: 98px;
+    color: #ffffff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+
+.form input {
+    padding: 20px 34px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.form label{
+    font-size: 16px;
+    font-weight: bold;
+}
+.form textarea{
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form input[type="Submit"]{
+    padding: 10px 15px;
+    background-color: #4E47FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
