@@ -47,13 +47,13 @@ span {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    cursor: pointer;
 }
 
 .images {
     width: 30px;
     height: 30px;
     background-position: center;
-
 }
 
 /* header style  */
@@ -104,7 +104,6 @@ span {
 .action-container img {
     width: 403px;
     border-radius: 40px;
-
 }
 
 /* productive section  */
@@ -133,7 +132,6 @@ span {
 .productive-sub-title {
     display: flex;
     justify-content: space-between;
-
 }
 
 .placed {
@@ -194,7 +192,7 @@ span {
 .user-comment {
     margin: 15px 0;
     font-size: 18px;
-    width: 280px;
+    width: 320px;
     color: rgba(37, 36, 50, 0.8);
 }
 
@@ -235,8 +233,6 @@ span {
 }
 
 /* Touch section  */
-
-
 .touch-container {
     display: flex;
     justify-content: space-between;
@@ -304,7 +300,6 @@ padding-top: 50px;
     width: 531px;
     height: 300px;
     margin: 0 auto;
-    /* padding-bottom: 50px; */
 
 }
 
