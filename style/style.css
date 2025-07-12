@@ -12,17 +12,18 @@ body {
 /* share style  */
 button {
     padding: 15px 35px;
-     background-color: #192A51;
+    background-color: #192A51;
     color: #ffffff;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    transition: 0.5s background ease-in-out;
+    transition: 1s background-color ease-in-out, 1s color ease-in-out;
 }
-button:hover{
-   background-color: #FFB4A2;
+
+button:hover {
+    background-color: #33e65de1;
     color: #000;
 
 }
@@ -47,7 +48,8 @@ span {
     font-weight: bold;
     text-align: center;
 }
-.images{
+
+.images {
     width: 30px;
     height: 30px;
     background-position: center;
@@ -96,7 +98,7 @@ span {
 
 .action-leftside .action-sub-title {
     font-size: 24px;
-margin: 15px 0;
+    margin: 15px 0;
 }
 
 .action-container img {
@@ -213,38 +215,41 @@ margin: 15px 0;
 }
 
 /* optional section  */
-.focuse-container{
+.focuse-container {
     text-align: center;
-    margin: 50px 0;
+    margin: 100px 0;
 }
-.focuse-title{
 
+.focuse-title {
+    font-size: 40px;
 }
-.focus-sub-title{
+
+.focus-sub-title {
     margin: 20px 0;
     font-size: 16px;
 }
-.focuse-image img{
+
+.focuse-image img {
     margin-top: 20px;
     border-radius: 40px;
 }
 
 /* Touch section  */
+
+
 .touch-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 150px;
+     padding: 0 150px;
     margin: 70px 0;
-    background-color: rgb(69, 104, 130);
-    color: #ffffff;
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
 
 .touch-title {
     font-size: 98px;
-    color: #ffffff;
 }
 
 .form {
@@ -274,19 +279,26 @@ margin: 15px 0;
 
 .form input[type="Submit"] {
     padding: 10px 15px;
-    background-color: #4E47FF;
-    color: #000;
+    background-color: #192A51;
+font-size: 20px;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.8s color background ease-in;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
 }
-.form input[type="Submit"]:hover{
-background-color: #1B3C53;
-    color: #f5f8ff;
+
+.form input[type="Submit"]:hover {
+     background-color: #33e65de1;
+    color: #000;
 }
 
 /* footer section  */
+footer {
+padding-top: 50px;
+    background-color: #192A51;
+}
+
 .footer-container {
     text-align: center;
     width: 531px;
@@ -295,17 +307,20 @@ background-color: #1B3C53;
     /* padding-bottom: 50px; */
 
 }
-.logo{
+
+.logo {
     font-size: 60px;
     font-weight: bold;
-    color: #4E47FF;
-     
+    color: #fff;
+
 }
+
 .sub-title {
     margin: 40px 0;
     font-size: 16px;
-    color: #8987A1;
+    color: #e2e1ee;
 }
+
 .link ul {
     display: flex;
     justify-content: space-between;
@@ -319,5 +334,5 @@ background-color: #1B3C53;
 .link li a {
     font-size: 17px;
     text-decoration: none;
-    color: #8987A1;
+    color: #e2e1ee;
 }
