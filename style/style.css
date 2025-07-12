@@ -6,19 +6,25 @@
 
 body {
     font-family: "Raleway", sans-serif;
-    ;
+    background-color: #f5f8ff;
 }
 
 /* share style  */
 button {
     padding: 15px 35px;
-    background-color: #4E47FF;
+     background-color: #192A51;
     color: #ffffff;
     font-weight: bold;
     font-size: 16px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.5s background ease-in-out;
+}
+button:hover{
+   background-color: #FFB4A2;
+    color: #000;
+
 }
 
 span {
@@ -32,6 +38,20 @@ span {
 
 .margin {
     margin: 10px 0;
+}
+
+.nav-logo {
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.images{
+    width: 30px;
+    height: 30px;
+    background-position: center;
+
 }
 
 /* header style  */
@@ -49,12 +69,6 @@ span {
     align-items: center;
 }
 
-.nav .logo {
-    color: #4E47FF;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
 
 .banner-section {
     text-align: center;
@@ -82,7 +96,7 @@ span {
 
 .action-leftside .action-sub-title {
     font-size: 24px;
-
+margin: 15px 0;
 }
 
 .action-container img {
@@ -125,6 +139,7 @@ span {
 }
 
 .placed .number {
+    font-family: "Inter", sans-serif;
     font-size: 80px;
     color: #4E47FF;
     font-weight: bold;
@@ -139,8 +154,8 @@ span {
 /* user feedback */
 .user-feedback {
     text-align: center;
-    padding: 0 150px;
-    margin: 70px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .feedback-title {
@@ -152,6 +167,7 @@ span {
 .feedback-card-container {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .feedback-card {
@@ -159,6 +175,8 @@ span {
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3);
     text-align: left;
     padding: 24px;
+    border-radius: 10px;
+    /* width: ; */
 }
 
 .card-rating {
@@ -166,12 +184,16 @@ span {
 }
 
 .card-title {
+    font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
 }
 
 .user-comment {
-    margin: 10px 0;
+    margin: 15px 0;
+    font-size: 18px;
+    width: 280px;
+    color: rgba(37, 36, 50, 0.8);
 }
 
 .user-info {
@@ -190,6 +212,23 @@ span {
     color: rgba(0, 0, 0, 0.9);
 }
 
+/* optional section  */
+.focuse-container{
+    text-align: center;
+    margin: 50px 0;
+}
+.focuse-title{
+
+}
+.focus-sub-title{
+    margin: 20px 0;
+    font-size: 16px;
+}
+.focuse-image img{
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
 /* Touch section  */
 .touch-container {
     display: flex;
@@ -197,7 +236,7 @@ span {
     align-items: center;
     padding: 0 150px;
     margin: 70px 0;
-    background-color: #192A51;
+    background-color: rgb(69, 104, 130);
     color: #ffffff;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -221,20 +260,64 @@ span {
     font-size: 16px;
     border-radius: 5px;
 }
-.form label{
+
+.form label {
     font-size: 16px;
     font-weight: bold;
 }
-.form textarea{
+
+.form textarea {
     font-size: 16px;
     padding: 10px;
     border-radius: 5px;
 }
-.form input[type="Submit"]{
+
+.form input[type="Submit"] {
     padding: 10px 15px;
     background-color: #4E47FF;
-    color: #ffffff;
+    color: #000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.8s color background ease-in;
+}
+.form input[type="Submit"]:hover{
+background-color: #1B3C53;
+    color: #f5f8ff;
+}
+
+/* footer section  */
+.footer-container {
+    text-align: center;
+    width: 531px;
+    height: 300px;
+    margin: 0 auto;
+    /* padding-bottom: 50px; */
+
+}
+.logo{
+    font-size: 60px;
+    font-weight: bold;
+    color: #4E47FF;
+     
+}
+.sub-title {
+    margin: 40px 0;
+    font-size: 16px;
+    color: #8987A1;
+}
+.link ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link li {
+    list-style: none;
+}
+
+.link li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #8987A1;
 }
